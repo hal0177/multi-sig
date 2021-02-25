@@ -16,7 +16,7 @@ npm install
 Start a local ```ganache-cli``` blockchain in a separate terminal:
 
 ```bash
-npx ganache-cli -p 8545 -e 1000 -l 1000000
+npx ganache-cli -p 8545 -e 1000
 ```
 
 To compile and test using Truffle, run:
