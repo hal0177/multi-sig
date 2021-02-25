@@ -22,8 +22,8 @@ npx ganache-cli -p 8545 -e 1000
 To compile, deploy and test using Truffle, run:
 
 ```bash
-npx truffle migrate
 npx truffle compile --all
+npx truffle migrate
 npx truffle test
 ```
 
