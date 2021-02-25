@@ -11,7 +11,7 @@ To install dependencies, run:
 npm install
 ```
 
-## Compilation and testing
+## Compilation, deployment and testing
 
 Start a local ```ganache-cli``` blockchain in a separate terminal:
 
@@ -19,9 +19,10 @@ Start a local ```ganache-cli``` blockchain in a separate terminal:
 npx ganache-cli -p 8545 -e 1000
 ```
 
-To compile and test using Truffle, run:
+To compile, deploy and test using Truffle, run:
 
 ```bash
+npx truffle migrate
 npx truffle compile --all
 npx truffle test
 ```
