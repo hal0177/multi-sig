@@ -1,0 +1,22 @@
+{
+  "name": "multisig",
+  "version": "1.0.0",
+  "description": "Basic multisig Ether wallet.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "blockchain",
+    "ethereum",
+    "wallet",
+    "multisig"
+  ],
+  "author": "paddyc1",
+  "license": "ISC",
+  "devDependencies": {
+    "bignumber.js": "^9.0.1",
+    "chai": "^4.3.0",
+    "mocha": "^8.3.0"
+  }
+}
